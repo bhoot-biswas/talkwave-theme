@@ -1,0 +1,39 @@
+<!-- wp:talkwave/layout -->
+<div class="wp-block-talkwave-layout"><!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:template-part {"slug":"sidebar","tagName":"aside","area":"uncategorized"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"0","right":"0"}}},"layout":{"type":"constrained"},"hideFromFeed":true} -->
+<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40);padding-left:0"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"}},"dimensions":{"minHeight":"100vh"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"},"hideFromFeed":true} -->
+<div class="wp-block-group alignwide" style="min-height:100vh;padding-top:0;padding-bottom:0"><!-- wp:group {"tagName":"main","layout":{"type":"default"},"hideFromFeed":true} -->
+<main class="wp-block-group"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"type":"default"}} -->
+<div class="wp-block-query"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"},"hideFromFeed":true} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--70)"><!-- wp:query-title {"type":"archive","showPrefix":false} /-->
+
+<!-- wp:term-description {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}}} -->
+<!-- wp:group {"layout":{"type":"default"},"hideFromFeed":true} -->
+<div class="wp-block-group"><!-- wp:post-featured-image {"isLink":true} /-->
+
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-date {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"},"hideFromFeed":true} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)"><!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"left","orientation":"vertical"}} -->
+<!-- wp:query-pagination-previous {"label":"Previous"} /-->
+
+<!-- wp:query-pagination-next {"label":"Next"} /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /--></div>
+<!-- /wp:group --></main>
+<!-- /wp:group --></div>
+<!-- /wp:talkwave/layout -->

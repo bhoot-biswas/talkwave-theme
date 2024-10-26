@@ -1,0 +1,69 @@
+/*
+Theme Name: TalkWave
+Theme URI: 
+Author: Mithun B
+Author URI: 
+Description: TalkWave is a sleek and dynamic WordPress block theme crafted for podcast websites, offering a clean layout, customizable blocks, and an intuitive design to showcase episodes, hosts, and show notes effortlessly.
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: talkwave
+Tags: 
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+a {
+    text-decoration-thickness: 1.0px !important;
+    text-underline-offset: 1.5px;
+}
+
+/*
+ * Form field styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+::placeholder {
+    color: var(--wp--preset--color--contrast);
+    opacity: 1;
+    /* Firefox */
+}
+
+/*
+ * Button Block
+ * Control the hover stylings of outline block style.
+ * Unnecessary once block styles are configurable via theme.json
+ * https://github.com/WordPress/gutenberg/issues/42794
+ */
+.wp-block-button.is-style-outline>.wp-block-buttontalkwave_talkwave_link:not(.has-background):hover {
+    background-color: var(--wp--preset--color--primary);
+    border-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--base);
+}
+
+/*
+ * Pull quote Block
+ * Reset the browser default margins for blockquote element
+ * https://github.com/WordPress/gutenberg/issues/44129
+ */
+.wp-block-pullquote blockquote,
+.wp-block-pullquote p {
+    margin: 0;
+}
+
+/*
+ * Navigation Block
+ * Reset the padding from List block
+ * https://github.com/WordPress/gutenberg/issues/50486
+ */
+.wp-block-navigation ul {
+    padding: unset;
+}
