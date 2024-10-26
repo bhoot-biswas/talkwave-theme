@@ -317,14 +317,14 @@
 			"title": "Header"
 		},
 		{
-			"area": "sidebar",
-			"name": "sidebar",
-			"title": "Sidebar"
-		},
-		{
 			"area": "main",
 			"name": "main",
 			"title": "Main"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
 		},
 		{
 			"area": "footer",
